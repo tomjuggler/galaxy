@@ -24,23 +24,25 @@ void draw() {
   //    my = map(mouseY, 0, height, -.5, .5);
   //  }
 //  println(millis()%100);
-  if (millis()%100 > 80) {
+//  if (millis()%100 > 80) {
 println("X : " + mxSim);
 println("Y: " + mySim);
-    if (goingUp) {
-      mxSim+=.1;
-//          mySim=mxSim-5;
-      if (mxSim > 16.0) {
-        goingUp = !goingUp;
-      }
-    } else {
-      mxSim-=.1;
-//          mySim=mxSim+5;
-      if (mxSim <= 7.0) {
-        goingUp = !goingUp;
-      }
-    }
-  }
+mxSim += .1;
+mySim += .1;
+//    if (goingUp) {
+//      mxSim+=.1;
+////          mySim=mxSim-5;
+//      if (mxSim > 16.0) {
+//        goingUp = !goingUp;
+//      }
+//    } else {
+//      mxSim-=.1;
+////          mySim=mxSim+5;
+//      if (mxSim <= 7.0) {
+//        goingUp = !goingUp;
+//      }
+//    }
+//  }
   //    if(mxSim > 10){
   //      mxSim = 5;
   //      mySim = 10;
