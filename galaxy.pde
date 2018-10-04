@@ -8,7 +8,7 @@ boolean goingUp = true;
 
 void setup() {
   //  frameRate(4);
-  size(500, 500);
+  size(800, 800);
   colorMode(HSB, 100);
   //  colorMode(RGB,100,100,100);
   rectMode(CENTER);
@@ -63,7 +63,7 @@ void recursive( float gen ) {
   float x = (maxGen-gen)*(sin(gen*t*mx));
   float y = (maxGen-gen)*(cos(gen*t*my));
   stroke(50+gen/8, 50+gen/8, 100);
-  strokeWeight(5);
+  strokeWeight(8);
   point(x, y);
   recursive(++gen);
 }
