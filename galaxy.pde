@@ -2,8 +2,8 @@
 
 float maxGen = 400;
 float mx, my;
-float mxSim = 7; //simulated mouseX
-float mySim = 16; //simulated mouseY
+float mxSim = 400; //simulated mouseX
+float mySim = 400; //simulated mouseY
 boolean goingUp = true;
 
 void setup() {
